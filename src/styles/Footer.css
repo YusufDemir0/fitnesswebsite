@@ -1,0 +1,23 @@
+.footer {
+  background: #085e7d !important;
+  position: relative;
+  bottom: 0; /* Ekranın alt kısmına yapıştırır */
+  left: 0; /* Ekranın sol kısmına yapıştırır */
+  right: 0; /* Ekranın sağ kısmına yapıştırır */
+  display: flex; /* Flexbox kullanarak içeriği yatay hizalamak için */
+
+  align-items: center; /* İçeriği dikeyde ortalamak için */
+  height: 50px; /* Footer yüksekliği */
+}
+
+.container {
+  align-items: center; /* İçeriği dikeyde ortalamak için */
+}
+
+.container svg {
+  color: white;
+  font-size: 30px; /* Footer içindeki svg boyutunu düşürmek için */
+  cursor: pointer;
+  margin: 0 10px; /* İçerik arasında boşluk bırakmak için */
+  text-align: center;
+}

@@ -1,0 +1,92 @@
+/* Navbar Stili */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* Ana Bağlantılar */
+.mainLink a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.mainLink a:hover {
+  border-bottom: 2px solid white;
+}
+
+/* Giriş Yapmamış Kullanıcılar İçin Bağlantılar */
+.unloged a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.unloged a:hover {
+  border-bottom: 2px solid white;
+}
+
+/* Giriş Yapmış Kullanıcılar İçin Bağlantılar */
+.loged {
+  display: flex;
+  align-items: center;
+}
+
+.loged div {
+  margin-right: 20px;
+}
+
+.loged a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.loged a:hover {
+  border-bottom: 2px solid white;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #333;
+}
+
+/* Medya Sorguları */
+@media (max-width: 768px) {
+  .mainLink,
+  .unloged,
+  .loged {
+    display: none;
+  }
+
+  .navbar {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+}

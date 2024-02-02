@@ -1,0 +1,62 @@
+.admin-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.person-list {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.list-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.selected-person-details {
+  flex: 1;
+}
+
+.selected-person-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.selected-person-details p {
+  margin-bottom: 5px;
+}
+
+.selected-person-details img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.selected-person-details input {
+  margin-bottom: 10px;
+}
+
+.selected-person-details button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

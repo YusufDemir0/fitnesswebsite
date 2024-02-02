@@ -1,0 +1,18 @@
+.mainPage {
+  background-position: center;
+  width: 100%;
+  height: 100vh; /* Ekran yüksekliği kadar genişletmek için */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  text-align: center;
+  color: white; /* Metin rengini beyaz yapabilirsiniz, arka plan resmi üzerinde daha iyi görünmesi için */
+}
+.main p {
+  background-color: #89b9ad;
+  color: #f3eeea;
+}
